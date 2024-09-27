@@ -80,3 +80,13 @@ print(m[1,])
 ```
 
 [1] Wikipedia contributors. (2024, August 24). Moran's I. In *Wikipedia, The Free Encyclopedia*. Retrieved 20:20, September 19, 2024, from <https://en.wikipedia.org/w/index.php?title=Moran%27s_I&oldid=1242089215>
+
+
+## Git
+
+This repository now is set up for git.
+
+## Github
+
+I also set up or I'm working to set up a github repository.
+

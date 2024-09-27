@@ -1650,21 +1650,9 @@ Reproducible Research Workflow with GitHub and R/Assignments/Activity
 <div class="figcaption">renv workflow</div>
 </div>
 <pre class="r"><code>renv::status()</code></pre>
-<pre><code>## The following package(s) are in an inconsistent state:
-## 
-##  package   installed recorded used
-##  here      y         n        y   
-##  rprojroot y         n        y   
-## 
-## See ?renv::status() for advice on resolving these issues.</code></pre>
+<pre><code>## No issues found -- the project is in a consistent state.</code></pre>
 <pre class="r"><code>renv::snapshot()</code></pre>
-<pre><code>## The following package(s) will be updated in the lockfile:
-## 
-## # CRAN -----------------------------------------------------------------------
-## - here        [* -&gt; 1.0.1]
-## - rprojroot   [* -&gt; 2.0.4]
-## 
-## - Lockfile written to &quot;~/Library/CloudStorage/OneDrive-Personal/GEOG 712 - Reproducible Research Workflow with GitHub and R/Assignments/Activity 2/Haoran&#39;s first repository/renv.lock&quot;.</code></pre>
+<pre><code>## - The lockfile is already up to date.</code></pre>
 <pre class="r"><code>renv::snapshot()</code></pre>
 <pre><code>## - The lockfile is already up to date.</code></pre>
 <pre class="r"><code>renv::status()</code></pre>
@@ -1707,7 +1695,7 @@ I =
 \frac{N}{W}*\frac{\sum^N_{i=1}*\sum^N_{j=1}w_{ij}(x_i-\bar{x})(x_j-\bar{x})}{\sum^N_{i=1}(x_i-\bar{x})^2}
 \]</span><br />
 where <span class="math inline">\(N\)</span> is the number of spatial
-units indexed by <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>; <span class="math inline">\(x\)</span>
+units indexedusethis::use_github() by <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>; <span class="math inline">\(x\)</span>
 is the variable of interest; <span class="math inline">\(\bar{x}\)</span> is the mean of <span class="math inline">\(x\)</span>; <span class="math inline">\(w_{ij}\)</span> are the elements of a matrix of
 spatial weights with zeroes on the diagonal (i.e. <span class="math inline">\(w_{ii}=0\)</span>); and <span class="math inline">\(W\)</span> is the sum of all <span class="math inline">\(w_{ij}\)</span> (i.e. <span class="math inline">\(W=\sum^N_{i=1}{\sum^N_{j=1}{w_{ij}}}\)</span>)
 [1].</p>
@@ -1766,11 +1754,19 @@ history.</td>
 <pre><code>## [1] 10.85591</code></pre>
 <pre class="r"><code>m &lt;- matrix(runif(1000), ncol = 10, nrow = 100)
 print(m[1,])</code></pre>
-<pre><code>##  [1] 0.18699848 0.44150299 0.03904131 0.24476774 0.93710246 0.44290519
-##  [7] 0.25378089 0.52924764 0.84249942 0.82601015</code></pre>
+<pre><code>##  [1] 0.09660968 0.39446782 0.98552798 0.19116807 0.83804336 0.49802315
+##  [7] 0.83405295 0.86677967 0.45420159 0.93093637</code></pre>
 <p>[1] Wikipedia contributors. (2024, August 24). Moran’s I. In
 <em>Wikipedia, The Free Encyclopedia</em>. Retrieved 20:20, September
 19, 2024, from <a href="https://en.wikipedia.org/w/index.php?title=Moran%27s_I&amp;oldid=1242089215" class="uri">https://en.wikipedia.org/w/index.php?title=Moran%27s_I&amp;oldid=1242089215</a></p>
+<div id="git" class="section level2">
+<h2>Git</h2>
+<p>This repository now is set up for git.</p>
+</div>
+<div id="github" class="section level2">
+<h2>Github</h2>
+<p>I also set up or I’m working to set up a github repository.</p>
+</div>
 </div>
 
 
